@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_basics_mon/widgets/Calculator/Calculator.dart';
 import 'package:flutter_basics_mon/widgets/Calculator/Practice.dart';
 import 'package:flutter_basics_mon/widgets/GridViewExampleScreen.dart';
+import 'package:flutter_basics_mon/widgets/HomeScreen.dart';
 import 'package:flutter_basics_mon/widgets/ListViewExampleScreen.dart';
 import 'package:flutter_basics_mon/widgets/NewsCategoryItem.dart';
 import 'package:flutter_basics_mon/widgets/SimpleCounterExample.dart';
@@ -17,6 +18,8 @@ class MyApplication extends StatelessWidget{
 
     return  MaterialApp(
       title: 'My Application',
+      home: HomeScreen(),
+
     );
   }
 
